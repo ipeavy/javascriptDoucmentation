@@ -1,0 +1,178 @@
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  main {
+    flex-direction: row !important;
+    height: 100vh;
+  }
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #fff;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fff;
+}
+
+/* selected link */
+a:active {
+  color: #fff;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+label {
+  font-size: 1.1rem;
+}
+
+main {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+footer {
+  background-color: #f9f9f9;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  background-color: #000000;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+}
+
+#header-img,
+img {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+iframe {
+  width: 700px;
+  height: 400px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  color: #000000;
+}
+
+input {
+  border: 0;
+  height: 30px;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+section {
+  background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/ff0f7d4b-6b21-4f6a-e7cf-cd5613f13c00/largedesktop");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(204, 204, 204, 0.7);
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.title-cont {
+  text-align: left;
+  padding: 1rem;
+}
+
+.form-cont {
+  padding: 1rem;
+  width: 60%;
+}
+
+.form-conts {
+  padding: 1rem 0;
+}
