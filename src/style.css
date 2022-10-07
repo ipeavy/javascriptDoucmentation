@@ -143,10 +143,7 @@ input {
 }
 
 section {
-  background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/ff0f7d4b-6b21-4f6a-e7cf-cd5613f13c00/largedesktop");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: #f9f9f9;
   display: flex;
   height: 100%;
   align-items: center;
