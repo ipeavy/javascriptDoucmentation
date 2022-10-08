@@ -1,17 +1,11 @@
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  iframe {
-    width: 300px;
+  h1 {
+    font-size: 22px;
   }
 }
 
 @media screen and (min-width: 1150px) {
-  main {
-    flex-direction: row !important;
-    height: 100vh;
+  header {
   }
 }
 
@@ -70,7 +64,7 @@ main {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -85,19 +79,14 @@ footer {
 }
 
 header {
-  width: 100%;
+  width: 20%;
   display: flex;
   padding: 0;
   margin: 0;
   position: fixed;
-  top: 0;
-  height: 5rem;
+  left: 0;
   background-color: #000000;
-}
-
-#nav-bar {
-  position: fixed;
-  top: 0;
+  height: 100vh;
 }
 
 #header-img,
@@ -109,10 +98,8 @@ img {
 nav {
   width: 100%;
   display: flex;
-  position: fixed;
-  top: 0;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 iframe {
