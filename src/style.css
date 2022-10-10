@@ -19,7 +19,7 @@
 } /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */
-  header {
+  #header {
     width: 20%!important;
     display: flex;
     padding: 0;
@@ -57,7 +57,7 @@
 } /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   /* Styles */
-   header {
+   #header {
     width: 20%;
     display: flex;
     padding: 0;
@@ -174,7 +174,7 @@ footer {
   color: #000000;
 }
 
-header {
+#header {
   width: 100%;
   display: flex;
   padding: 0;
